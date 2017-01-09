@@ -1,0 +1,25 @@
+{
+  "name": "koa2-response-time",
+  "version": "0.0.0",
+  "description": "Used asnyc/await syntax to make the koa2 middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyPythoneer/koa2-response-time.git"
+  },
+  "author": "TonyPythoneer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TonyPythoneer/koa2-response-time/issues"
+  },
+  "homepage": "https://github.com/TonyPythoneer/koa2-response-time#readme",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "koa": "2",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.4"
+  }
+}
