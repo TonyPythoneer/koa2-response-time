@@ -4,7 +4,10 @@
   "description": "Used asnyc/await syntax to make the koa2 middleware",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "tsc -w",
+    "test": "tsc && ava ./dist/tests.js",
+    "build": "tsc -p tsconfig.production.json",
+    "clean": "rm -r ./dist"
   },
   "repository": {
     "type": "git",
@@ -17,8 +20,13 @@
   },
   "homepage": "https://github.com/TonyPythoneer/koa2-response-time#readme",
   "devDependencies": {
+    "@types/koa": "^2.0.37",
+    "@types/supertest-as-promised": "^2.0.32",
     "ava": "^0.17.0",
     "koa": "2",
+    "nyc": "^10.0.0",
+    "supertest": "^2.0.1",
+    "supertest-as-promised": "^4.0.2",
     "tslint": "^4.3.1",
     "typescript": "^2.1.4"
   }
