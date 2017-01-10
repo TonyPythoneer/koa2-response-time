@@ -2,7 +2,8 @@
   "name": "koa2-response-time",
   "version": "0.0.0",
   "description": "Used asnyc/await syntax to make the koa2 middleware",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "typings": "types/index.d.ts",
   "scripts": {
     "watch": "tsc -w",
     "test": "tsc && ava ./dist/tests.js",
