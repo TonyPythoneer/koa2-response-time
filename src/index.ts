@@ -11,7 +11,7 @@ export function responseTime(): Koa.Middleware {
         const start = Date.now();
         await next();
         const delta = Math.ceil(Date.now() - start);
-        this.set("X-Response-Time", `${delta} ms`);
+        ctx.set("X-Response-Time", `${delta} ms`);
     };
 };
 export default responseTime;
