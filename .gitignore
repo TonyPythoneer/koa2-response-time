@@ -4,3 +4,7 @@ node_modules/
 # typescript
 dist/
 
+# test
+.nyc_output/
+coverage/
+coverage.txt

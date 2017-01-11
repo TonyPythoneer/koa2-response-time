@@ -5,10 +5,13 @@
   "main": "./dist/index.js",
   "typings": "types/index.d.ts",
   "scripts": {
+    "build": "npm run build:dev",
+    "build:dev": "tsc",
+    "build:prod": "tsc -p tsconfig.production.json",
     "watch": "tsc -w",
-    "test": "tsc && ava ./dist/tests.js",
-    "build": "tsc -p tsconfig.production.json",
-    "clean": "rm -r ./dist"
+    "clean": "rm -r ./dist",
+    "test": "npm run build:dev && ava",
+    "coverage": "npm run build:dev && nyc ava dist/tests.js --verbose > coverage.txt"
   },
   "repository": {
     "type": "git",
