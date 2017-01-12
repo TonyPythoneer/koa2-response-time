@@ -1,6 +1,6 @@
 {
   "name": "koa2-response-time",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Used asnyc/await syntax to make the koa2 middleware",
   "main": "./dist/index.js",
   "typings": "types/index.d.ts",
