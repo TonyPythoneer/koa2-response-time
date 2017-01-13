@@ -13,7 +13,7 @@
     "watch:prod": "tsc -p tsconfig.production.json -w",
     "clean": "rm -r ./dist",
     "test": "npm run test:unit",
-    "test:unit": "npm run build:dev && ava",
+    "test:unit": "npm run build:dev && ava dist/tests.js",
     "test:cover": "npm run build:dev && nyc ava dist/tests.js --verbose > coverage.txt",
     "test:codecov": "npm run build:dev && nyc ava dist/tests.js --reporter=lcov > coverage.lcov && codecov"
   },
