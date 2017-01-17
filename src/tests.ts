@@ -1,7 +1,7 @@
 import test from "ava";
 import * as http from "http";
 import * as Koa from "koa";
-import * as supertest from "supertest-as-promised";
+import * as supertest from "supertest";
 
 import responseTime from "./index";
 

@@ -2,10 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/bluebird@*":
-  version "3.0.37"
-  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.0.37.tgz#2e76b394aa9bea40d04241a31c0887a260283388"
-
 "@types/cookies@*":
   version "0.5.30"
   resolved "https://registry.yarnpkg.com/@types/cookies/-/cookies-0.5.30.tgz#de798b61d6c6da77d6559ab1db4c6f3c8b4935bd"
@@ -29,15 +25,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/supertest-as-promised@^2.0.32":
-  version "2.0.32"
-  resolved "https://registry.yarnpkg.com/@types/supertest-as-promised/-/supertest-as-promised-2.0.32.tgz#a9a6409804e52153a0c933152e6811221fec181d"
-  dependencies:
-    "@types/bluebird" "*"
-    "@types/superagent" "*"
-    "@types/supertest" "*"
-
-"@types/supertest@*":
+"@types/supertest@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/supertest/-/supertest-2.0.0.tgz#4687deaff4950b63e4611536d6fd44665ee11bb7"
   dependencies:
@@ -906,7 +894,7 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@^3.0.0, bluebird@^3.3.1, bluebird@^3.4.1:
+bluebird@^3.0.0, bluebird@^3.4.1:
   version "3.4.7"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.4.7.tgz#f72d760be09b7f76d08ed8fae98b289a8d05fab3"
 
@@ -3097,13 +3085,6 @@ superagent@^2.0.0:
     mime "^1.3.4"
     qs "^6.1.0"
     readable-stream "^2.0.5"
-
-supertest-as-promised@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/supertest-as-promised/-/supertest-as-promised-4.0.2.tgz#0464f2bd256568d4a59bce84269c0548f6879f1a"
-  dependencies:
-    bluebird "^3.3.1"
-    methods "^1.1.1"
 
 supertest@^2.0.1:
   version "2.0.1"
