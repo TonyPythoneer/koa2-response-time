@@ -9,3 +9,6 @@ dist/
 coverage/
 coverage.txt
 coverage.lcov
+
+# vscode
+.vscode/
