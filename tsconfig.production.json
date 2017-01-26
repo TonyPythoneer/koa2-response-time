@@ -3,7 +3,10 @@
     "compilerOptions": {
         "declaration": true,
         "declarationDir": "types",
-        "target": "ES2017"
+        "target": "ES2017",
+        "module": "commonjs",
+        "outDir": "./lib",
+        "removeComments": true
     },
     "files": [
         "./src/index.ts"

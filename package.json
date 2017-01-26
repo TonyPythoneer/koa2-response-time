@@ -1,8 +1,8 @@
 {
   "name": "koa2-response-time",
-  "version": "0.0.2",
+  "version": "0.0.10",
   "description": "Used asnyc/await syntax to make the koa2 middleware",
-  "main": "./dist/index.js",
+  "main": "./lib/index.js",
   "typings": "types/index.d.ts",
   "scripts": {
     "build": "npm run build:dev",
@@ -36,7 +36,6 @@
   },
   "homepage": "https://github.com/TonyPythoneer/koa2-response-time#readme",
   "devDependencies": {
-    "@types/koa": "^2.0.37",
     "@types/supertest": "^2.0.0",
     "ava": "^0.17.0",
     "codecov": "^1.0.1",
@@ -45,5 +44,8 @@
     "supertest": "^2.0.1",
     "tslint": "^4.3.1",
     "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "@types/koa": "^2.0.37"
   }
 }

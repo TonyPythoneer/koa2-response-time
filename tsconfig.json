@@ -12,7 +12,7 @@
         "emitDecoratorMetadata": true,
         "outDir": "./dist",
         "rootDir": "./src",
-        "sourceMap": true,
+        "sourceMap": false,
         "removeComments": false,
         "noFallthroughCasesInSwitch": true,
         "noImplicitAny": true,

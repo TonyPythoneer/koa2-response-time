@@ -2,7 +2,10 @@
 node_modules/
 
 # typescript
+src/
 dist/
+tsconfig.*
+tslint.json
 
 # test
 .nycrc
@@ -12,3 +15,9 @@ coverage.*
 
 # vscode
 .vscode/
+
+# CI
+.travis.yml
+
+# yarn
+yarn.lock

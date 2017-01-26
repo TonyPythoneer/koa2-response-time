@@ -3,10 +3,15 @@
 
 
 "@types/cookies@*":
-  version "0.5.30"
-  resolved "https://registry.yarnpkg.com/@types/cookies/-/cookies-0.5.30.tgz#de798b61d6c6da77d6559ab1db4c6f3c8b4935bd"
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@types/cookies/-/cookies-0.6.0.tgz#f5e8df2357502a895d5627e2fb8b174b3b269461"
   dependencies:
+    "@types/keygrip" "*"
     "@types/node" "*"
+
+"@types/keygrip@*":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/keygrip/-/keygrip-1.0.0.tgz#20bcf84e8962aeca5d1789802b93644262870d28"
 
 "@types/koa@^2.0.37":
   version "2.0.37"
