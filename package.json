@@ -1,9 +1,9 @@
 {
   "name": "koa2-response-time",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Used asnyc/await syntax to make the koa2 middleware",
   "main": "./lib/index.js",
-  "typings": "types/index.d.ts",
+  "typings": "./types/index.d.ts",
   "scripts": {
     "build": "npm run build:dev",
     "build:dev": "tsc",
@@ -46,6 +46,7 @@
     "typescript": "^2.1.4"
   },
   "dependencies": {
-    "@types/koa": "^2.0.37"
+    "@types/koa": "^2.0.37",
+    "tslib": "^1.5.0"
   }
 }

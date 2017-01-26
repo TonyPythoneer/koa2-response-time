@@ -19,10 +19,6 @@
         "noImplicitReturns": true,
         "pretty": true
     },
-    "formatCodeOptions": {
-        "indentSize": 2,
-        "tabSize": 2
-    },
     "exclude": [
         "node_modules"
     ]
