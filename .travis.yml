@@ -11,3 +11,6 @@ script:
 
 after_success:
   - npm run report-coverage
+
+after_failure:
+  - pwd
