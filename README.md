@@ -1,6 +1,6 @@
 # koa2-response-time
 
-[![npm-v-badge][npm-v-badge]][npm-url] [![coverge-badge][coverge-badge]][coverge-url] [![npm-v-badge][npm-v-badge]][npm-url] [![npm-prod-badge][npm-prod-badge]][npm-url] [![npm-dev-badge][npm-dev-badge]][npm-url]
+[![npm-v-badge][npm-v-badge]][npm-url] [![travis-ci-master-badge][travis-ci-master-badge]][travis-ci-url] [![coverge-master-badge][coverge-master-badge]][coverge-master-url]  [![npm-prod-badge][npm-prod-badge]][npm-url] [![npm-dev-badge][npm-dev-badge]][npm-url]
 
 ```text
 Add response time in response header. It's for koa2 middleware written in ES7 asnyc/await.
@@ -32,8 +32,15 @@ const app = new Koa();
 app.use(responseTime())
 ```
 
-[coverge-badge]: https://api.travis-ci.org/TonyPythoneer/koa2-response-time.svg?branch=master
-[coverge-url]: no
+
+[travis-ci-master-badge]: https://api.travis-ci.org/TonyPythoneer/koa2-response-time.svg?branch=master
+[travis-ci-develop-badge]: https://api.travis-ci.org/TonyPythoneer/koa2-response-time.svg?branch=develop
+[travis-ci-url]: https://travis-ci.org/TonyPythoneer/koa2-response-time
+
+[coverge-master-badge]: https://api.travis-ci.org/TonyPythoneer/koa2-response-time.svg?branch=master
+[coverge-master-url]: https://codecov.io/gh/TonyPythoneer/koa2-response-time/branch/master
+[coverge-develop-badge]: https://api.travis-ci.org/TonyPythoneer/koa2-response-time.svg?branch=develop
+[coverge-develop-url]: https://codecov.io/gh/TonyPythoneer/koa2-response-time/branch/develop
 
 [npm-v-badge]: https://img.shields.io/npm/v/koa2-response-time.svg
 [npm-dt-badge]: https://img.shields.io/npm/dt/koa2-response-time.svg
