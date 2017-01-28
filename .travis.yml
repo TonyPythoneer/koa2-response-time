@@ -2,6 +2,10 @@ language: node_js
 node_js:
   - "6"
 
+cache:
+  directories:
+    - node_modules
+
 install:
   - cd project
   - npm install
@@ -11,6 +15,3 @@ script:
 
 after_success:
   - npm run report-coverage
-
-after_failure:
-  - pwd
