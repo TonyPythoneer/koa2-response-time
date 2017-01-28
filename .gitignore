@@ -6,7 +6,6 @@ npm-debug.log
 dist/
 
 # test
-.nycrc
 .nyc_output/
 coverage/
 coverage.*

@@ -3,6 +3,7 @@ node_js:
   - "6"
 
 install:
+  - cd project
   - npm install
 
 script:
