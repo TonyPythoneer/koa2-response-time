@@ -15,3 +15,11 @@ script:
 
 after_success:
   - npm run report-coverage
+
+deploy:
+  provider: npm
+  email: tonypythoneer@gmail.com
+  api_key:
+    secure: X+iLbWazYq1AyivPjngk8h7ryePO3laP5cVlbgpMOYYIlukVDYe1yLGwnoJZv9XSgdxaTq/6urjS5UAeLrLFCEaW7NEVyKKiIuaQmYEBCKWe9Q8UCshsjDAYwD0XedxaU0McR3yT1OSr1udcVtS9AD99zczSOIf+zGxW0jjl10T4K+7sbSkfTKy5qisU/0J+8iUxkHrVAjYTI3T43b44EMzeXp+1N/NbptgNfRVm76HN3BsW+elaJJ8+pjzAo+uLAiQCYGjM9fIRSrpNrcb8SrDVDeC/FGfrA0g8KWa2T1kkTVpjIWSRFgARqtYG1g/dfScc6SOWIn/PedczqLD5IFiEfrsuOe3Rmeat1C6gtS0FjT2u8Xc7fm40lUKLgXqcEhWf4dZkOwSCBnHYoHu+93pNC74BTtI5X1zRhs+E/cgGBwOLZ/51dsvvUhCpdt01KyzSdReAZ+//jX8cBxzVonHkVYyxLGYeydYF+TLfK9KwTpIoB4OGc9y87TmljjugICXHh9tYQZA9xyCQOdWHs5ANGmoxDp/uyAaSsFFaSOH+LsgvegGn+Zp7/1NWrtdT5b1aSoBKMIcQQjD1iilxaGulsPPvZlvj5fACmYCxZHy6qjBQP6Kx6hST1Ui9Gk+DtUMo52j4h+RKpPZm9/0werswQ8qKMBXNwLVrvGoBdoI=
+  on:
+    branch: master
