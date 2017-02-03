@@ -4,6 +4,7 @@ npm-debug.log
 
 # typescript
 dist/
+types/
 
 # test
 .nyc_output/
