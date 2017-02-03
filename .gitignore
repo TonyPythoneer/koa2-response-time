@@ -1,0 +1,15 @@
+# node
+node_modules/
+npm-debug.log
+
+# typescript
+dist/
+types/
+
+# test
+.nyc_output/
+coverage/
+coverage.*
+
+# vscode
+.vscode/

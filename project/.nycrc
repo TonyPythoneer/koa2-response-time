@@ -1,0 +1,16 @@
+{
+    "lines": 90,
+    "statements": 90,
+    "functions": 90,
+    "branches": 90,
+    "include": [
+      "dist/index.js"
+    ],
+    "reporter": [
+      "html",
+      "text-summary"
+    ],
+    "cache": false,
+    "check-coverage": true,
+    "tap": true
+}

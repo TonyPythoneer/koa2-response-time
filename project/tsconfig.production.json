@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "declaration": true,
+        "declarationDir": "./types",
+        "outDir": "./lib",
+        "removeComments": true
+    },
+    "files": [
+        "./src/index.ts"
+    ]
+}
