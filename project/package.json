@@ -1,6 +1,6 @@
 {
   "name": "koa2-response-time",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Used asnyc/await syntax to make the koa2 middleware",
   "main": "./lib/index.js",
   "typings": "./types/index.d.ts",
@@ -16,7 +16,7 @@
     "test:unit": "npm run build:dev && ava dist/tests.js",
     "test:cover": "npm run build:dev && nyc ava dist/tests.js --verbose > coverage.txt",
     "test:codecov": "npm run build:dev && nyc ava dist/tests.js --reporter=lcov > coverage.lcov",
-    "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov"
+    "report-coverage": "codecov"
   },
   "repository": {
     "type": "git",
