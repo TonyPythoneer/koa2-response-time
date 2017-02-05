@@ -22,7 +22,6 @@ after_success:
 
 before_deploy:
   - npm run build:prod
-  - ls
 
 deploy:
   provider: npm
