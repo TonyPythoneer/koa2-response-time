@@ -14,9 +14,8 @@
     "clean": "rm -r ./dist",
     "test": "npm run test:unit",
     "test:unit": "npm run build:dev && ava dist/tests.js",
-    "test:cover": "npm run build:dev && nyc ava dist/tests.js --verbose > coverage.txt",
-    "test:codecov": "npm run build:dev && nyc ava dist/tests.js",
-    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "test:cover": "npm run build:dev && nyc ava dist/tests.js",
+    "make-reporter": "nyc report --reporter=lcov > coverage.lcov"
   },
   "repository": {
     "type": "git",
@@ -38,7 +37,6 @@
   "devDependencies": {
     "@types/supertest": "^2.0.0",
     "ava": "^0.17.0",
-    "codecov": "^1.0.1",
     "koa": "2",
     "nyc": "^10.0.0",
     "supertest": "^2.0.1",
