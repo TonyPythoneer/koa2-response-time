@@ -28,4 +28,4 @@ deploy:
     branch: master
 
 after_deploy:
-    - npm release
+    - npm publish
