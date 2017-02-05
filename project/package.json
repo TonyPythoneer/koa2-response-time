@@ -15,8 +15,8 @@
     "test": "npm run test:unit",
     "test:unit": "npm run build:dev && ava dist/tests.js",
     "test:cover": "npm run build:dev && nyc ava dist/tests.js --verbose > coverage.txt",
-    "test:codecov": "npm run build:dev && nyc ava dist/tests.js --reporter=lcov > coverage.lcov",
-    "report-coverage": "codecov"
+    "test:codecov": "npm run build:dev && nyc ava dist/tests.js",
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "repository": {
     "type": "git",
