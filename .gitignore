@@ -5,6 +5,7 @@ npm-debug.log
 # typescript
 dist/
 types/
+lib/
 
 # test
 .nyc_output/
