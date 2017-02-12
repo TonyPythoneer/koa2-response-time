@@ -2,9 +2,7 @@
 
 [![npm-v-badge][npm-v-badge]][npm-url] [![npm-dt-badge][npm-dt-badge]][npm-url] [![travis-ci-master-badge][travis-ci-master-badge]][travis-ci-url] [![coverge-master-badge][coverge-master-badge]][coverge-master-url]
 
-```text
-Add response time in response header. It's for koa2 middleware written in ES7 asnyc/await.
-```
+Add response time in response header. It's for koa2 middleware written in ES7 asnyc/await and compatible with ES5 syntax.
 
 ##Installation
 
@@ -16,7 +14,7 @@ $ npm install koa2-response-time
 
 Import default module style:
 ```javascript
-import * as Koa from "koa";
+import * as Koa from 'koa';
 import responseTime from 'koa2-response-time';  // import default style
 
 const app = new Koa();
@@ -25,7 +23,7 @@ app.use(responseTime())
 
 Import the module style:
 ```javascript
-import * as Koa from "koa";
+import * as Koa from 'koa';
 import { responseTime } from 'koa2-response-time';  // import default style
 
 const app = new Koa();

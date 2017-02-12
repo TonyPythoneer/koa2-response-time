@@ -21,6 +21,7 @@ after_success:
   - bash <(curl -s https://codecov.io/bash)
 
 before_deploy:
+  - cat ../README.md > README.md
   - npm run build:prod
 
 deploy:
